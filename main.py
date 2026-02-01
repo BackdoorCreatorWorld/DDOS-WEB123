@@ -37,19 +37,19 @@ class DDOSSystem:
     def show_banner(self):
         """Display purple banner"""
         banner = f"""{Fore.MAGENTA}
-╔══════════════════════════════════════════════════════════╗
-║                                                          ║
-║  {Fore.WHITE}░█████╗░██████╗░░█████╗░░██████╗{Fore.MAGENTA}                          ║
-║  {Fore.WHITE}██╔══██╗██╔══██╗██╔══██╗██╔════╝{Fore.MAGENTA}                          ║
-║  {Fore.WHITE}██║░░╚═╝██║░░██║██║░░██║╚█████╗░{Fore.MAGENTA}                          ║
-║  {Fore.WHITE}██║░░██╗██║░░██║██║░░██║░╚═══██╗{Fore.MAGENTA}                          ║
-║  {Fore.WHITE}╚█████╔╝██████╔╝╚█████╔╝██████╔╝{Fore.MAGENTA}                          ║
-║  {Fore.WHITE}░╚════╝░╚═════╝░░╚════╝░╚═════╝░{Fore.MAGENTA}                          ║
-║                                                          ║
-║  {Fore.CYAN}═══════ ADVANCED DDOS ATTACK SYSTEM ═══════{Fore.MAGENTA}        ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-{Style.RESET_ALL}"""
+ ══════════════════════════════════════════════════════════
+                                                                     
+    {Fore.WHITE}░█████╗░██████╗░░█████╗░░██████╗{Fore.MAGENTA}                          
+    {Fore.WHITE}██╔══██╗██╔══██╗██╔══██╗██╔════╝{Fore.MAGENTA}                          
+    {Fore.WHITE}██║░░╚═╝██║░░██║██║░░██║╚█████╗░{Fore.MAGENTA}                          
+    {Fore.WHITE}██║░░██╗██║░░██║██║░░██║░╚═══██╗{Fore.MAGENTA}   
+    {Fore.WHITE}╚█████╔╝██████╔╝╚█████╔╝██████╔╝{Fore.MAGENTA}   
+    {Fore.WHITE}░╚════╝░╚═════╝░░╚════╝░╚═════╝░{Fore.MAGENTA}                          
+                                                                     
+    {Fore.CYAN}═══════ ADVANCED DDOS ATTACK SYSTEM ═══════{Fore.MAGENTA} 
+                                                                    
+ ══════════════════════════════════════════════════════════
+{Style.RESET_ALL}""
         print(banner)
     
     def getpass_masked(self, prompt):
